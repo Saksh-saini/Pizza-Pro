@@ -6,10 +6,11 @@
 .firstImg{
     width: 100%;
     height: 500px;
-    background: rgba(0, 0, 0, 0.4)url(../assets/asset\ 0.jpeg);;
+     background: rgba(0, 0, 0, 0.4)url(../assets/asset\ 0.jpeg);
     /* background-color: yellowgreen; */
     background-blend-mode: darken;
     position: relative,sticky;
+  
 }
 .firstImg .nav{
     position: fixed;
@@ -25,6 +26,13 @@
     /* background-color: rgb(255, 20, 20); */
     margin-left: 12%;
 }
+
+.firstImg .nav .logo span{
+    position: relative;
+    color: aliceblue;
+    margin-left: -8px;
+}
+
 .firstImg .nav .logo img{
     margin-top: 9px;
     width: 180px;
@@ -35,7 +43,7 @@
     position: relative;
     width: 700px;
     height: 80px;
-    margin-left: 20%;
+    margin-left: 15%;
     /* background-color: rgb(230, 226, 226); */
 }
 .nav2 ul{
@@ -51,10 +59,22 @@
     margin-top: 26px;
     text-decoration: none;
 }
+
+.nav2 ul span button{
+    padding:10px;
+    border: 0px;
+    font-size: medium;
+    margin-top: 17px;
+    border:1px solid white;
+    color: aliceblue;
+    background-color: black;
+}    
+
+
 .nav2 ul li:after{
     content: "";
     position: absolute;
-    background-color: yellow;
+    background-color:  #f6d91d;
     height: 3px;
     width: 0;
     left: 0;
@@ -68,3 +88,11 @@
 width: 100%;
 }
 
+.nav2 ul span button:hover{
+   background-color: #f6d91d;
+   transform: scale(1.5);
+   color: black;
+   border: none;
+   cursor: pointer;
+
+}

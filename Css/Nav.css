@@ -87,12 +87,11 @@
 .nav2 ul li:hover:after{
 width: 100%;
 }
-
 .nav2 ul span button:hover{
-   background-color: #f6d91d;
-   transform: scale(1.5);
-   color: black;
-   border: none;
-   cursor: pointer;
-
-}
+    background-color: #f6d91d;
+    transform: scale(1.5);
+    color: black;
+    border: none;
+    cursor: pointer;
+ 
+ }
